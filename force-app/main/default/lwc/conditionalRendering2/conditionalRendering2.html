@@ -1,0 +1,17 @@
+<template>
+    
+<lightning-card title = "ConditionalRendering2">
+    <div class="slds-var-m-around_medium">
+        <lightning-button variant="success" label="Success" title="Successful action" onclick={handleClick} class="slds-var-m-left_x-small"></lightning-button>
+        <template if:true={showContent}>
+
+        <div class="slds-var-m-top_small">
+        Hello im learning LWC!
+    </div>
+    </template>
+    </div>
+
+</lightning-card>
+
+
+</template>

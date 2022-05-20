@@ -1,0 +1,6 @@
+Select id, name from Account where name like '%A%'
+select id, AccountNumber from Account where AccountNumber !=Null
+select id, createddate from Contact order by createddate desc limit 10
+select id, lastmodifieddate from opportunity order by lastmodifieddate limit 10
+select count(ID) from opportunity
+select count(name) from Account where name like '%am%'

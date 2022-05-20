@@ -1,0 +1,2 @@
+AccountsBatch ab = new AccountsBatch();
+id batchId2 = Database.executeBatch(ab, 10); // Burada soql ile accountta kac record var kotrol et => 52 ise / 10'ar li 6 batch ya da 20 li 3 batch olacak sekilde istege gore ayarlanabilir

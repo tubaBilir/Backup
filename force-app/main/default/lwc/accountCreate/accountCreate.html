@@ -1,0 +1,43 @@
+<!-- sldsValidatorIgnore -->
+<template>
+    <lightning-card title = 'Account Information'>
+
+        <lightning-button-icon icon-name="utility:adduser"   variant="container" alternative-text="Add user" class="slds-m-left_xx-small" title="Add user"></lightning-button-icon>
+
+
+        <div class="slds-var-m-around_medium">
+        <lightning-input 
+        type="text" 
+        label ='Account Name'
+        value={accName}>
+        </lightning-input>
+
+        
+
+        <lightning-input 
+        type="text" 
+        label ='Phone'
+        value={accPhone}>
+        </lightning-input>
+
+        <lightning-input 
+        type="text" 
+        label ='City'
+        value={accCity}>
+        </lightning-input>
+
+        <lightning-input 
+        type="text" 
+        label ='Industry'
+        value={accIndustry}>
+        </lightning-input>
+
+        <div class="slds-m-around_small"><lightning-button variant="brand" label="Save" title="Primary action" onclick={handleClick} class="slds-var-m-right_small"></lightning-button>
+        </div>
+
+
+
+        
+        </div>
+    </lightning-card>
+</template>

@@ -1,0 +1,2 @@
+SoqlDeneme.onChildStandard();
+SoqlDeneme.onChildCustom();

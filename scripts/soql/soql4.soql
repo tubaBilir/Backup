@@ -1,0 +1,13 @@
+// soql on child, how to fetch parent.fields 
+
+select id, name, account.Name, account.industry from contact where account.industry = 'Energy'
+
+select id, name, subject__c from salesforce_ticket__c where salesforce_project__r.status__c = 'New'
+
+
+select leadsource from lead 
+select leadsource from lead  leadSource
+select leadSource count (name) from lead 
+
+
+

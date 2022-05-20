@@ -1,0 +1,4 @@
+select count() from Contact 
+
+select count(id) from Contact 
+select count(Mailingcity) from Contact 
